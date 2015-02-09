@@ -1,0 +1,19 @@
+{
+  "name": "catdown-core",
+  "version": "1.0.0",
+  "description": "Core plugins for Catdown, included by default. Includes events, rendering, extended editor functionality and formatting key events.",
+  "main": "index.js",
+  "keywords": [
+    "catdown",
+    "markdown",
+    "core",
+    "plugin",
+    "render",
+    "controls",
+    "keys"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "codemirror": "^4.12.0"
+  }
+}
