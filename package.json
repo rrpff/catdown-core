@@ -15,5 +15,14 @@
   "license": "MIT",
   "dependencies": {
     "codemirror": "^4.12.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zuren/catdown-core.git"
+  },
+  "author": "Richard Foster <richard@rpf.me> (http://rpf.me/)",
+  "bugs": {
+    "url": "https://github.com/zuren/catdown-core/issues"
+  },
+  "homepage": "https://github.com/zuren/catdown-core"
 }
