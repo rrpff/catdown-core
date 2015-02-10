@@ -1,6 +1,6 @@
 {
   "name": "catdown-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Core plugins for Catdown, included by default. Includes events, rendering, extended editor functionality and formatting key events.",
   "main": "index.js",
   "keywords": [
