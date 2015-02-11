@@ -50,4 +50,31 @@ editor.keys({
 
 ### Controls
 
-Adds some additional CodeMirror functionality to Catdown instance. `_moveCursorX`, `_moveCursorY` and `_surroundSelection`.
+Adds some additional CodeMirror functionality to Catdown. `moveCursorX`, `moveCursorY` and `wrapSelection` are available in `editor.controls`.
+
+#### `moveCursorX(int)`
+
+Move cursor horizontally. Positive number goes right, negative goes left.
+
+```js
+// Move three spaces back
+editor.controls.moveCursorX(-3);
+```
+
+#### `moveCursorY(int)`
+
+Move cursor vertically. Positive number goes down, negative goes up.
+
+```js
+// Move two lines down
+editor.controls.moveCursorY(2);
+```
+
+#### wrapSelections(leftStr, rightStr)
+
+Wrap current selections between two strings. `rightStr` is empty by default so not required.
+
+```js
+// Make the current selections bold
+editor.controls.wrapSelection("**", "**");
+```
